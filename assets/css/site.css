@@ -250,6 +250,11 @@ body.cue-hide .scroll-cue{opacity:0;pointer-events:none;transform:translateX(-50
 .article .ctable th,.article .ctable td{border:1px solid var(--line-strong);padding:11px 13px;text-align:left;vertical-align:top;color:#d2d2d2}
 .article .ctable th{background:var(--ink-3);color:#fff;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.05em;font-size:.95rem}
 .article .ctable td strong{color:#fff}
+.article .infographic{margin:0 0 30px;border:1px solid var(--line-strong);border-radius:10px;overflow:hidden;line-height:0;background:#fff}
+.article .infographic img{width:100%;height:auto;display:block}
+.article .infocap{font-size:.86rem;color:var(--muted);text-align:center;margin:-16px 0 32px}
+.localmap{border:1px solid var(--line-strong);border-radius:12px;overflow:hidden;background:#fff;line-height:0}
+.localmap img{width:100%;height:auto;display:block}
 
 /* ---------- QUOTE EMBED ---------- */
 .qframe{border:1px solid var(--line-strong);border-radius:10px;overflow:hidden;background:var(--ink-2);box-shadow:0 30px 60px -30px rgba(0,0,0,.9)}
