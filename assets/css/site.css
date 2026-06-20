@@ -218,6 +218,15 @@ body.cue-hide .scroll-cue{opacity:0;pointer-events:none;transform:translateX(-50
 .article-cta{margin-top:46px;padding:30px;border:1px solid var(--line-strong);border-radius:10px;background:linear-gradient(150deg,var(--ink-3),var(--ink));text-align:center}
 .article-cta h3{font-family:'Barlow Condensed';text-transform:uppercase;font-size:1.6rem;color:#fff;margin-bottom:10px}
 .article-cta p{color:var(--text-dim);margin-bottom:20px}
+.article .keyfacts{background:var(--ink-2);border:1px solid var(--line-strong);border-left:4px solid var(--steel);border-radius:8px;padding:20px 24px;margin:0 0 32px}
+.article .keyfacts .kf-title{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:.82rem;color:var(--steel);margin-bottom:8px}
+.article .keyfacts p,.article .keyfacts ul{font-size:1rem;margin-bottom:10px}
+.article .keyfacts p:last-child,.article .keyfacts ul:last-child{margin-bottom:0}
+.article .ta-wrap{overflow-x:auto;margin:0 0 24px}
+.article .ctable{width:100%;border-collapse:collapse;font-size:.98rem}
+.article .ctable th,.article .ctable td{border:1px solid var(--line-strong);padding:11px 13px;text-align:left;vertical-align:top;color:#d2d2d2}
+.article .ctable th{background:var(--ink-3);color:#fff;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.05em;font-size:.95rem}
+.article .ctable td strong{color:#fff}
 
 /* ---------- QUOTE EMBED ---------- */
 .qframe{border:1px solid var(--line-strong);border-radius:10px;overflow:hidden;background:var(--ink-2);box-shadow:0 30px 60px -30px rgba(0,0,0,.9)}
