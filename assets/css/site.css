@@ -160,13 +160,9 @@ body.cue-hide .scroll-cue{opacity:0;pointer-events:none;transform:translateX(-50
 .frame:hover{transform:rotate(0) scale(1.03);z-index:2}
 .frame img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:2px}
 .frame .cap{font-family:'Barlow Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:.78rem;color:#444;text-align:center;padding-top:10px}
-.wtile{background:var(--ink-2);border:1px solid var(--line);border-radius:10px;padding:36px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:16px;min-height:178px;transition:transform .16s ease,border-color .16s,background .16s}
-.wtile:hover{transform:translateY(-5px);border-color:var(--steel)}
-.wtile svg{width:54px;height:54px;stroke:var(--steel-light);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;transition:stroke .16s}
-.wtile:hover svg{stroke:#fff}
-.wtile .lab{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;color:#ececec;line-height:1.05}
-.wtile.cta{background:linear-gradient(150deg,var(--ink-3),var(--ink))}
-.wtile.cta .lab{color:#cfcfcf;font-weight:600;font-size:.92rem;letter-spacing:.02em}
+.clientwall{background:#f4f2ec;border:1px solid var(--line);border-radius:12px;padding:38px 5%;display:flex;justify-content:center;align-items:center}
+.clientwall img{width:100%;max-width:1040px;height:auto;display:block}
+.work-cta{text-align:center;margin-top:30px}
 
 /* ---------- AT A GLANCE (GEO facts) ---------- */
 .glance{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
