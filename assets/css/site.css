@@ -290,7 +290,13 @@ footer.site{background:var(--black);padding:64px 0 40px;border-top:1px solid var
 /* ---------- REVEAL ---------- */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.marquee-track{animation:none}.scroll-cue svg{animation:none}}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .scroll-cue svg{animation:none}
+  .marquee-track{animation:none;width:auto;flex-wrap:wrap;justify-content:center}
+  .marquee-track span{flex-wrap:wrap;justify-content:center;gap:10px 22px}
+  .marquee-track span:last-child{display:none}
+}
 
 /* ---------- TOAST ---------- */
 #toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);background:#fff;color:#000;font-family:'Barlow Condensed';font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.85rem;padding:12px 20px;border-radius:4px;opacity:0;pointer-events:none;transition:all .25s;z-index:10000}
