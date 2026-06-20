@@ -79,4 +79,14 @@
   } else {
     lazyFrames.forEach(function (f) { f.src = f.dataset.src; });
   }
+
+  // ---- Scroll cue: fade out once the user starts scrolling ----
+  var cue = document.querySelector('.scroll-cue');
+  if (cue) {
+    var onCueScroll = function () {
+      document.body.classList.toggle('cue-hide', window.scrollY > 40);
+    };
+    window.addEventListener('scroll', onCueScroll, { passive: true });
+    onCueScroll();
+  }
 })();
