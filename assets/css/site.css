@@ -21,7 +21,7 @@
   --line-strong:rgba(255,255,255,.20);
   --accent:#f4f1ea;            /* near-white "charge" used for primary CTAs */
   --maxw:1200px;
-  --nav-h:124px;
+  --nav-h:108px;
   --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
@@ -260,7 +260,7 @@ footer.site{background:var(--black);padding:64px 0 40px;border-top:1px solid var
 
 /* ---------- RESPONSIVE ---------- */
 @media(max-width:1000px){
-  :root{--nav-h:80px}
+  :root{--nav-h:72px}
   .nav-logo img{height:58px}
   .nav-links{display:none}
   .nav-cta .btn-quote{display:none}
@@ -273,7 +273,7 @@ footer.site{background:var(--black);padding:64px 0 40px;border-top:1px solid var
   .contact-grid{grid-template-columns:1fr}
 }
 @media(max-width:600px){
-  :root{--nav-h:72px}
+  :root{--nav-h:62px}
   .nav-logo img{height:48px}
   section{padding:62px 0}
   .grid-3,.grid-2,.paths,.gallery,.blog-grid,.glance{grid-template-columns:1fr}
