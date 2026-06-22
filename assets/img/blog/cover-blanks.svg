@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" font-family="Impact, 'Arial Narrow', Haettenschweiler, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b1c20"/><stop offset="1" stop-color="#0b0b0c"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" filter="url(#grain)" opacity="0.06"/>
+  <rect x="26" y="26" width="1148" height="698" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M59 12 L28 57 H47 L41 88 L74 41 H55 Z" transform="translate(1052,58) scale(0.85)" fill="#808184" opacity="0.5"/>
+  <text x="600" y="158" text-anchor="middle" fill="#808184" font-size="32" letter-spacing="9">THE SOUND &amp; FURY GUIDE</text>
+  <text x="600" y="330" text-anchor="middle" fill="#f4f1ea" font-size="150">THE BEST</text>
+  <text x="600" y="430" text-anchor="middle" fill="#808184" font-size="62" letter-spacing="6">BLANK&#160;&#160;TEES&#160;&#160;FOR</text>
+  <text x="600" y="585" text-anchor="middle" fill="#f4f1ea" font-size="148">PRINTING</text>
+  <text x="600" y="668" text-anchor="middle" fill="#a9aaac" font-size="30" letter-spacing="5">BELLA · COMFORT COLORS · GILDAN · NEXT LEVEL</text>
+</svg>
