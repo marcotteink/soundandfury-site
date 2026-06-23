@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sound &amp; Fury — Brand Guidelines &amp; Logo Assets</title>
+<meta name="description" content="Official logos, colors, typography, and usage rules for Sound & Fury Print Shop in Warrenville, IL. Download vector (SVG), high-res PNG, and Illustrator logo files." />
+<link rel="canonical" href="https://soundandfuryprint.com/brand/" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sound & Fury — Brand Guidelines & Logo Assets" />
+<meta property="og:description" content="Logos, colors, type, and usage rules for Sound & Fury Print Shop. Download the full asset pack." />
+<meta property="og:url" content="https://soundandfuryprint.com/brand/" />
+<meta property="og:image" content="https://soundandfuryprint.com/brand/assets/logos/png/SNF_LOGO_new-05.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --black:#000;
+    --ink:#0b0b0c;
+    --ink-2:#141416;
+    --ink-3:#1b1c1f;
+    --steel:#808184;
+    --steel-light:#a9aaac;
+    --bone:#f3f0e8;
+    --paper:#fbfaf6;
+    --line:rgba(255,255,255,.10);
+    --line-strong:rgba(255,255,255,.18);
+    --muted:#8b8c8e;
+    --maxw:1180px;
+    --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:80px}
+  body{
+    background:var(--ink);
+    color:#ededed;
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;
+    background-image:var(--grain);opacity:.035;mix-blend-mode:overlay;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .display{font-family:'Anton',sans-serif;text-transform:uppercase;font-weight:400;letter-spacing:.01em;line-height:.95}
+  .cond{font-family:'Barlow Condensed',sans-serif}
+  .eyebrow{
+    font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;
+    letter-spacing:.34em;font-size:.82rem;color:var(--steel);
+  }
+
+  /* ---------- NAV ---------- */
+  header.nav{
+    position:sticky;top:0;z-index:100;
+    background:rgba(11,11,12,.82);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{display:flex;align-items:center;gap:24px;height:66px}
+  .nav-logo{display:flex;align-items:center;gap:12px}
+  .nav-logo img{height:22px;width:auto;display:block}
+  .nav-tag{font-family:'Barlow Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.2em;font-size:.68rem;color:var(--muted);border-left:1px solid var(--line-strong);padding-left:12px}
+  .nav-links{display:flex;gap:26px;margin-left:auto}
+  .nav-links a{font-family:'Barlow Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.14em;font-size:.92rem;color:#cfcfcf;transition:color .15s}
+  .nav-links a:hover,.nav-links a.active{color:#fff}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;cursor:pointer;
+    font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;
+    letter-spacing:.12em;font-size:.95rem;line-height:1;border:none;
+    padding:13px 20px;border-radius:3px;transition:transform .12s,background .15s,color .15s;
+  }
+  .btn-primary{background:#fff;color:#000}
+  .btn-primary:hover{transform:translateY(-2px);background:var(--steel-light)}
+  .btn-ghost{background:transparent;color:#fff;border:1px solid var(--line-strong)}
+  .btn-ghost:hover{border-color:#fff;transform:translateY(-2px)}
+  .nav .btn{padding:10px 16px;font-size:.85rem}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;padding:90px 0 70px;border-bottom:1px solid var(--line);
+    background:radial-gradient(120% 120% at 50% -10%, #1a1b1e 0%, var(--ink) 55%);}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(2.6rem,6vw,5rem);color:#fff;margin:18px 0 16px}
+  .hero h1 .thin{color:var(--steel)}
+  .hero p.lede{font-size:1.08rem;color:#c7c7c7;max-width:42ch;margin-bottom:28px}
+  .hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+  .hero-meta{margin-top:30px;display:flex;gap:26px;flex-wrap:wrap;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;color:var(--muted)}
+  .hero-meta b{color:#ddd;font-weight:600}
+  .hero-logo{
+    background:#000;border:1px solid var(--line-strong);border-radius:8px;padding:46px 38px;
+    display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;
+  }
+  .hero-logo::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.06;mix-blend-mode:screen;pointer-events:none}
+  .hero-logo img{width:100%;max-width:460px;height:auto;display:block}
+
+  /* ---------- SECTION ---------- */
+  section{padding:84px 0;border-bottom:1px solid var(--line)}
+  .sec-head{max-width:62ch;margin-bottom:44px}
+  .sec-head h2{font-size:clamp(1.9rem,3.6vw,2.9rem);color:#fff;margin:12px 0 14px}
+  .sec-head p{color:#bdbdbd;font-size:1.04rem}
+  .num{font-family:'Anton',sans-serif;color:var(--ink-3);-webkit-text-stroke:1px var(--steel);color:transparent;font-size:1rem}
+
+  /* ---------- LOGO STORY ---------- */
+  .mark-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+  .mark-show{background:var(--paper);border-radius:8px;padding:54px 40px;display:flex;align-items:center;justify-content:center}
+  .mark-show img{width:100%;max-width:420px;height:auto}
+  .mark-copy h3{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.04em;font-size:1.5rem;color:#fff;margin-bottom:10px}
+  .mark-copy p{color:#c2c2c2;margin-bottom:16px}
+  .mark-copy .bolt{color:var(--steel-light);font-weight:600}
+
+  /* ---------- LOGO CARDS ---------- */
+  .logo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .logo-card{background:var(--ink-2);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column}
+  .logo-stage{height:200px;display:flex;align-items:center;justify-content:center;padding:30px;position:relative}
+  .logo-stage.light{background:var(--bone)}
+  .logo-stage.dark{background:#000}
+  .logo-stage img{max-width:100%;max-height:100%;width:auto;height:auto;display:block}
+  .logo-info{padding:16px 18px 18px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:4px;flex:1}
+  .logo-info .name{font-family:'Barlow Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;color:#fff}
+  .logo-info .desc{font-size:.84rem;color:var(--muted)}
+  .dl-row{display:flex;gap:8px;margin-top:auto;padding-top:14px}
+  .dl{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;color:#cfcfcf;border:1px solid var(--line-strong);padding:7px 12px;border-radius:3px;transition:all .15s}
+  .dl:hover{background:#fff;color:#000;border-color:#fff}
+
+  /* ---------- CLEAR SPACE / MIN SIZE ---------- */
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .panel{background:var(--ink-2);border:1px solid var(--line);border-radius:8px;padding:30px}
+  .panel h3{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:1.25rem;color:#fff;margin-bottom:8px}
+  .panel p{color:#b9b9b9;font-size:.95rem;margin-bottom:20px}
+  .clearbox{background:var(--paper);border-radius:6px;padding:26px;display:flex;align-items:center;justify-content:center;position:relative}
+  .clearbox .pad{border:2px dashed #b9b3a4;padding:26px;display:flex;align-items:center;justify-content:center}
+  .clearbox img{max-width:260px;width:100%;height:auto}
+  .minrow{display:flex;align-items:flex-end;gap:34px;flex-wrap:wrap;background:var(--paper);border-radius:6px;padding:26px}
+  .minrow .mi{display:flex;flex-direction:column;align-items:center;gap:10px}
+  .minrow .mi img{height:auto}
+  .minrow .mi .cap{font-family:'Barlow Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.1em;font-size:.74rem;color:#444}
+  .minrow .lg img{width:230px}
+  .minrow .sm img{width:120px}
+
+  /* ---------- COLORS ---------- */
+  .swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .swatch{border:1px solid var(--line);border-radius:8px;overflow:hidden;cursor:pointer;background:var(--ink-2);transition:transform .12s}
+  .swatch:hover{transform:translateY(-3px)}
+  .chip{height:140px;position:relative}
+  .chip .copy{position:absolute;top:10px;right:10px;font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.68rem;background:rgba(0,0,0,.45);color:#fff;padding:4px 8px;border-radius:3px;opacity:0;transition:opacity .15s}
+  .swatch:hover .copy{opacity:1}
+  .sw-meta{padding:14px 16px 18px}
+  .sw-meta .nm{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:1.02rem;color:#fff}
+  .sw-meta .vals{font-size:.8rem;color:var(--muted);line-height:1.7;margin-top:6px}
+  .sw-meta .vals span{color:#cfcfcf}
+
+  /* ---------- TYPE ---------- */
+  .type-card{background:var(--ink-2);border:1px solid var(--line);border-radius:8px;padding:30px 32px;margin-bottom:18px}
+  .type-card .label{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .type-card .role{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--steel)}
+  .type-card .fam{font-size:.85rem;color:var(--muted)}
+  .specimen-anton{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(2.4rem,6vw,4.4rem);line-height:.95;color:#fff}
+  .specimen-cond{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(1.6rem,4vw,2.6rem);letter-spacing:.02em;color:#e7e7e7}
+  .specimen-body{font-family:'Inter',sans-serif;font-size:1.05rem;color:#c9c9c9;max-width:60ch}
+  .glyphs{font-family:'Anton',sans-serif;color:var(--steel);font-size:1.4rem;letter-spacing:.12em;margin-top:14px;word-break:break-word}
+
+  /* ---------- DO / DONT ---------- */
+  .dd{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .dd-col h3{display:flex;align-items:center;gap:10px;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:1.3rem;margin-bottom:16px}
+  .dd-col.do h3{color:#dcdcdc}
+  .dd-col.dont h3{color:#dcdcdc}
+  .tag{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.1em;padding:3px 9px;border-radius:3px}
+  .tag.ok{background:#e7e7e7;color:#000}
+  .tag.no{background:#3a1414;color:#ff8a8a;border:1px solid #5a1d1d}
+  .dd ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+  .dd li{display:flex;gap:12px;font-size:.96rem;color:#c4c4c4;background:var(--ink-2);border:1px solid var(--line);padding:14px 16px;border-radius:6px}
+  .dd li .mk{flex:0 0 auto;font-weight:700}
+  .do li .mk{color:#bdbdbd}
+  .dont li .mk{color:#e06b6b}
+  .dont-vis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+  .dv{background:var(--bone);border-radius:6px;height:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:12px;position:relative;overflow:hidden}
+  .dv img{max-width:78%;height:auto}
+  .dv .x{position:absolute;top:8px;left:8px;width:22px;height:22px;border-radius:50%;background:#c0392b;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-family:'Inter'}
+  .dv .cap{position:absolute;bottom:6px;font-family:'Barlow Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:.68rem;color:#555}
+  .dv.stretch img{transform:scaleX(1.55)}
+  .dv.rotate img{transform:rotate(-13deg)}
+  .dv.shadow img{filter:drop-shadow(4px 5px 2px rgba(0,0,0,.55))}
+  .dv.recolor img{filter:sepia(1) saturate(6) hue-rotate(-35deg)}
+
+  /* ---------- DOWNLOADS ---------- */
+  .dtable{background:var(--ink-2);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .dgroup-title{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:.9rem;color:var(--steel);background:var(--ink-3);padding:12px 22px;border-top:1px solid var(--line)}
+  .drow{display:flex;align-items:center;gap:16px;padding:16px 22px;border-top:1px solid var(--line);flex-wrap:wrap}
+  .drow .dn{flex:1;min-width:200px}
+  .drow .dn .t{font-weight:600;color:#fff}
+  .drow .dn .s{font-size:.82rem;color:var(--muted)}
+  .drow .acts{display:flex;gap:8px;flex-wrap:wrap}
+  .bigdl{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;background:linear-gradient(100deg,#1d1e21,#0f0f11);border:1px solid var(--line-strong);border-radius:8px;padding:26px 30px;margin-bottom:26px}
+  .bigdl .l h3{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:1.5rem;color:#fff}
+  .bigdl .l p{color:var(--muted);font-size:.92rem}
+
+  /* ---------- FOOTER ---------- */
+  footer{padding:60px 0 50px;background:var(--black)}
+  .foot-grid{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;align-items:flex-start}
+  footer img.fl{height:30px;margin-bottom:18px}
+  .foot-contact{font-size:.95rem;color:#bdbdbd;line-height:1.9}
+  .foot-contact a:hover{color:#fff}
+  .foot-links{display:flex;flex-direction:column;gap:8px;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:.95rem}
+  .foot-links a{color:#cfcfcf}.foot-links a:hover{color:#fff}
+  .copyline{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+  /* ---------- TOAST ---------- */
+  #toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);background:#fff;color:#000;font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.85rem;padding:12px 20px;border-radius:4px;opacity:0;pointer-events:none;transition:all .25s;z-index:10000}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media(max-width:980px){
+    .nav-links{display:none}
+    .hero-grid,.mark-grid{grid-template-columns:1fr;gap:34px}
+    .logo-grid,.swatches{grid-template-columns:repeat(2,1fr)}
+    .two,.dd{grid-template-columns:1fr}
+    .dont-vis{grid-template-columns:repeat(2,1fr)}
+  }
+  @media(max-width:560px){
+    .logo-grid,.swatches{grid-template-columns:1fr}
+    .hero{padding:60px 0 50px}
+    section{padding:60px 0}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-logo" href="#top">
+      <img src="assets/logos/png/SNF_LOGO_new-08.png" alt="Sound & Fury" />
+      <span class="nav-tag">Brand Guide</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#logo">Logo</a>
+      <a href="#variations">Variations</a>
+      <a href="#space">Clear Space</a>
+      <a href="#color">Color</a>
+      <a href="#type">Type</a>
+      <a href="#usage">Usage</a>
+      <a href="#downloads">Downloads</a>
+    </nav>
+    <a class="btn btn-primary" href="assets/downloads/SoundAndFury_Brand_Assets.zip" download>↓ Asset Pack</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Sound &amp; Fury · Warrenville, IL</span>
+      <h1 class="display">Brand<br>Guidelines <span class="thin">&amp; Assets</span></h1>
+      <p class="lede">Everything you need to put our mark on something the right way. Logos, colors, type, the rules, and one button that hands you all the files.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="assets/downloads/SoundAndFury_Brand_Assets.zip" download>↓ Download Asset Pack</a>
+        <a class="btn btn-ghost" href="#downloads">Browse Files</a>
+      </div>
+      <div class="hero-meta">
+        <span>Updated <b>June 2026</b></span>
+        <span>Version <b>1.0</b></span>
+        <span><b>SVG · PNG · AI</b></span>
+      </div>
+    </div>
+    <div class="hero-logo">
+      <img src="assets/logos/png/SNF_LOGO_new-07.png" alt="Sound & Fury full logo lockup with tagline: Local apparel printing that doesn't suck. soundandfuryprint.com" />
+    </div>
+  </div>
+</section>
+
+<!-- LOGO STORY -->
+<section id="logo">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="num">01</span> &nbsp;The Mark</span>
+      <h2 class="display">One Logo. A Lot of Attitude.</h2>
+      <p>The Sound &amp; Fury wordmark is built from a heavy, condensed, slightly distressed type — loud, hand-worn, and unmistakably ours. The signature move is the ampersand: a lightning bolt strikes straight through the <strong>&amp;</strong>, tying the two words together and carrying the energy of the name.</p>
+    </div>
+    <div class="mark-grid">
+      <div class="mark-show">
+        <img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Sound & Fury wordmark, solid black" />
+      </div>
+      <div class="mark-copy">
+        <h3>The Lightning Ampersand</h3>
+        <p>The <span class="bolt">&amp; / lightning bolt</span> is the heart of the identity. It is never replaced with a plain ampersand, removed, or redrawn. When the wordmark is used, the bolt comes with it.</p>
+        <p>Two official compositions cover almost every need:</p>
+        <p><strong style="color:#fff">Primary Lockup</strong> — the wordmark with the tagline <em>"Local apparel printing that doesn't suck."</em> and the web address. Use this as the default whenever there's room.</p>
+        <p><strong style="color:#fff">Wordmark</strong> — <em>SOUND&amp;FURY</em> on its own, for tight spaces, icons, apparel, and anywhere the tagline would get lost.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VARIATIONS -->
+<section id="variations">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="num">02</span> &nbsp;Logo Variations</span>
+      <h2 class="display">Pick the Right One for the Background.</h2>
+      <p>Solid versions are clean vector — recolor and scale them however you need. Distressed versions carry the grunge texture for that printed-and-loved look. On dark backgrounds, reach for the gray or reversed marks.</p>
+    </div>
+
+    <div class="logo-grid">
+      <!-- Lockup row -->
+      <div class="logo-card">
+        <div class="logo-stage light"><img src="assets/logos/png/SNF_LOGO_new-01.png" alt="Primary lockup, solid black on light"></div>
+        <div class="logo-info">
+          <span class="name">Lockup · Solid Black</span>
+          <span class="desc">Clean vector. Default for light backgrounds.</span>
+          <div class="dl-row">
+            <a class="dl" href="assets/logos/svg/SNF_LOGO_new-01.svg" download="SoundAndFury_Lockup_Black.svg">SVG</a>
+            <a class="dl" href="assets/logos/png/SNF_LOGO_new-01.png" download="SoundAndFury_Lockup_Black.png">PNG</a>
+          </div>
+        </div>
+      </div>
+      <div class="logo-card">
+        <div class="logo-stage light"><img src="assets/logos/png/SNF_LOGO_new-03.png" alt="Primary lockup, distressed black on light"></div>
+        <div class="logo-info">
+          <span class="name">Lockup · Distressed</span>
+          <span class="desc">Grunge texture. Light backgrounds.</span>
+          <div class="dl-row">
+            <a class="dl" href="assets/logos/svg/SNF_LOGO_new-03.svg" download="SoundAndFury_Lockup_Distressed_Black.svg">SVG</a>
+            <a class="dl" href="assets/logos/png/SNF_LOGO_new-03.png" download="SoundAndFury_Lockup_Distressed_Black.png">PNG</a>
+          </div>
+        </div>
+      </div>
+      <div class="logo-card">
+        <div class="logo-stage dark"><img src="assets/logos/png/SNF_LOGO_new-07.png" alt="Primary lockup, gray distressed on dark"></div>
+        <div class="logo-info">
+          <span class="name">Lockup · Gray / Reversed</span>
+          <span class="desc">Distressed gray. Dark backgrounds.</span>
+          <div class="dl-row">
+            <a class="dl" href="assets/logos/svg/SNF_LOGO_new-07.svg" download="SoundAndFury_Lockup_Distressed_Gray.svg">SVG</a>
+            <a class="dl" href="assets/logos/png/SNF_LOGO_new-07.png" download="SoundAndFury_Lockup_Distressed_Gray.png">PNG</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wordmark row -->
+      <div class="logo-card">
+        <div class="logo-stage light"><img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Wordmark, solid black on light"></div>
+        <div class="logo-info">
+          <span class="name">Wordmark · Solid Black</span>
+          <span class="desc">Clean vector. Default for light backgrounds.</span>
+          <div class="dl-row">
+            <a class="dl" href="assets/logos/svg/SNF_LOGO_new-02.svg" download="SoundAndFury_Wordmark_Black.svg">SVG</a>
+            <a class="dl" href="assets/logos/png/SNF_LOGO_new-02.png" download="SoundAndFury_Wordmark_Black.png">PNG</a>
+          </div>
+        </div>
+      </div>
+      <div class="logo-card">
+        <div class="logo-stage light"><img src="assets/logos/png/SNF_LOGO_new-04.png" alt="Wordmark, distressed black on light"></div>
+        <div class="logo-info">
+          <span class="name">Wordmark · Distressed</span>
+          <span class="desc">Grunge texture. Light backgrounds.</span>
+          <div class="dl-row">
+            <a class="dl" href="assets/logos/svg/SNF_LOGO_new-04.svg" download="SoundAndFury_Wordmark_Distressed_Black.svg">SVG</a>
+            <a class="dl" href="assets/logos/png/SNF_LOGO_new-04.png" download="SoundAndFury_Wordmark_Distressed_Black.png">PNG</a>
+          </div>
+        </div>
+      </div>
+      <div class="logo-card">
+        <div class="logo-stage dark"><img src="assets/logos/png/SNF_LOGO_new-08.png" alt="Wordmark, gray distressed on dark"></div>
+        <div class="logo-info">
+          <span class="name">Wordmark · Gray / Reversed</span>
+          <span class="desc">Distressed gray. Dark backgrounds.</span>
+          <div class="dl-row">
+            <a class="dl" href="assets/logos/svg/SNF_LOGO_new-08.svg" download="SoundAndFury_Wordmark_Distressed_Gray.svg">SVG</a>
+            <a class="dl" href="assets/logos/png/SNF_LOGO_new-08.png" download="SoundAndFury_Wordmark_Distressed_Gray.png">PNG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLEAR SPACE / MIN SIZE -->
+<section id="space">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="num">03</span> &nbsp;Clear Space &amp; Sizing</span>
+      <h2 class="display">Give It Room to Breathe.</h2>
+      <p>The logo needs a buffer of empty space so it never feels crowded or competes with other elements. And below a certain size the distressed texture turns to mud — keep it legible.</p>
+    </div>
+    <div class="two">
+      <div class="panel">
+        <h3>Clear Space</h3>
+        <p>Keep clear space on all sides equal to at least the height of the <strong>"S"</strong> in the wordmark. More is always fine. Nothing — type, photos, edges — enters this zone.</p>
+        <div class="clearbox"><div class="pad"><img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Clear space example"></div></div>
+      </div>
+      <div class="panel">
+        <h3>Minimum Size</h3>
+        <p>Don't reproduce the wordmark smaller than <strong>120&nbsp;px</strong> wide on screen (about 1&nbsp;in / 25&nbsp;mm in print). For the full lockup with tagline, keep it at <strong>230&nbsp;px</strong> wide or larger so the small type stays readable.</p>
+        <div class="minrow">
+          <div class="mi lg"><img src="assets/logos/png/SNF_LOGO_new-01.png" alt="Lockup minimum size"><span class="cap">Lockup · min 230px</span></div>
+          <div class="mi sm"><img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Wordmark minimum size"><span class="cap">Wordmark · min 120px</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COLOR -->
+<section id="color">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="num">04</span> &nbsp;Color</span>
+      <h2 class="display">Black, Steel, and Not Much Else.</h2>
+      <p>The palette is deliberately stripped down — it keeps the brand looking tough and reproducing cleanly on everything from a white tee to a black hoodie. Click any swatch to copy its hex.</p>
+    </div>
+    <div class="swatches">
+      <div class="swatch" data-copy="#000000">
+        <div class="chip" style="background:#000"><span class="copy">Click to copy</span></div>
+        <div class="sw-meta"><div class="nm">Ink Black</div>
+          <div class="vals">HEX <span>#000000</span><br>RGB <span>0 · 0 · 0</span><br>CMYK <span>0 · 0 · 0 · 100</span><br>PMS <span>≈ Black 6 C</span></div>
+        </div>
+      </div>
+      <div class="swatch" data-copy="#808184">
+        <div class="chip" style="background:#808184"><span class="copy">Click to copy</span></div>
+        <div class="sw-meta"><div class="nm">Steel Gray</div>
+          <div class="vals">HEX <span>#808184</span><br>RGB <span>128 · 129 · 132</span><br>CMYK <span>3 · 2 · 0 · 48</span><br>PMS <span>≈ Cool Gray 9 C</span></div>
+        </div>
+      </div>
+      <div class="swatch" data-copy="#FFFFFF">
+        <div class="chip" style="background:#fff;border-bottom:1px solid var(--line)"><span class="copy" style="background:rgba(0,0,0,.55)">Click to copy</span></div>
+        <div class="sw-meta"><div class="nm">Reverse White</div>
+          <div class="vals">HEX <span>#FFFFFF</span><br>RGB <span>255 · 255 · 255</span><br>CMYK <span>0 · 0 · 0 · 0</span><br>Use <span>logo on dark</span></div>
+        </div>
+      </div>
+      <div class="swatch" data-copy="#F3F0E8">
+        <div class="chip" style="background:#f3f0e8;border-bottom:1px solid var(--line)"><span class="copy" style="background:rgba(0,0,0,.55)">Click to copy</span></div>
+        <div class="sw-meta"><div class="nm">Bone (Paper)</div>
+          <div class="vals">HEX <span>#F3F0E8</span><br>RGB <span>243 · 240 · 232</span><br>CMYK <span>0 · 1 · 5 · 5</span><br>Use <span>warm backgrounds</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TYPE -->
+<section id="type">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="num">05</span> &nbsp;Typography</span>
+      <h2 class="display">Loud Headlines. Clean Reading.</h2>
+      <p>The logo is custom lettering — don't try to retype it. For everything around it (websites, decks, flyers, social), use this type system. All three are free on Google Fonts.</p>
+    </div>
+
+    <div class="type-card">
+      <div class="label"><span class="role">Display / Headlines</span><span class="fam">Anton — Regular, all caps</span></div>
+      <div class="specimen-anton">Make It Loud.</div>
+      <div class="glyphs">ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 &amp;</div>
+    </div>
+
+    <div class="type-card">
+      <div class="label"><span class="role">Subheads / Labels</span><span class="fam">Barlow Condensed — 600/700, all caps</span></div>
+      <div class="specimen-cond">Local Apparel Printing That Doesn't Suck.</div>
+    </div>
+
+    <div class="type-card">
+      <div class="label"><span class="role">Body Text</span><span class="fam">Inter — 400/500/600</span></div>
+      <p class="specimen-body">Sound &amp; Fury is an independent screen-printing shop and creative house in Warrenville, IL. Body copy stays in Inter at a comfortable size with generous line height, so the big condensed headlines do the shouting and the reading stays easy.</p>
+    </div>
+  </div>
+</section>
+
+<!-- USAGE -->
+<section id="usage">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="num">06</span> &nbsp;Usage Rules</span>
+      <h2 class="display">Do This. Not That.</h2>
+      <p>The fastest way to keep the brand looking sharp: protect the proportions, the colors, and the clear space. When in doubt, use a file straight from the asset pack and leave it alone.</p>
+    </div>
+
+    <div class="dd">
+      <div class="dd-col do">
+        <h3><span class="tag ok">Do</span> Keep it clean</h3>
+        <ul>
+          <li><span class="mk">✓</span> Use the supplied logo files at their original proportions.</li>
+          <li><span class="mk">✓</span> Give the mark its full clear space on every side.</li>
+          <li><span class="mk">✓</span> Use black on light backgrounds, gray or white on dark.</li>
+          <li><span class="mk">✓</span> Pick contrast that lets the whole wordmark read clearly.</li>
+          <li><span class="mk">✓</span> Scale proportionally — hold Shift, always.</li>
+        </ul>
+      </div>
+      <div class="dd-col dont">
+        <h3><span class="tag no">Don't</span> Mess with it</h3>
+        <ul>
+          <li><span class="mk">✕</span> Don't stretch, squash, or distort the logo.</li>
+          <li><span class="mk">✕</span> Don't recolor it outside the brand palette.</li>
+          <li><span class="mk">✕</span> Don't add drop shadows, glows, outlines, or bevels.</li>
+          <li><span class="mk">✕</span> Don't rotate the logo or rearrange the lockup.</li>
+          <li><span class="mk">✕</span> Don't swap the lightning ampersand for a plain "&amp;".</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dont-vis">
+      <div class="dv stretch"><span class="x">✕</span><img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Don't stretch"><span class="cap">No stretching</span></div>
+      <div class="dv rotate"><span class="x">✕</span><img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Don't rotate"><span class="cap">No rotating</span></div>
+      <div class="dv shadow"><span class="x">✕</span><img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Don't add shadows"><span class="cap">No shadows</span></div>
+      <div class="dv recolor"><span class="x">✕</span><img src="assets/logos/png/SNF_LOGO_new-02.png" alt="Don't recolor"><span class="cap">No off-brand color</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- DOWNLOADS -->
+<section id="downloads">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="num">07</span> &nbsp;Downloads</span>
+      <h2 class="display">Grab the Files.</h2>
+      <p>Vector (SVG) for design and large format, high-res PNG for quick drops, and the editable Illustrator master. Or take the whole pack in one click.</p>
+    </div>
+
+    <div class="bigdl">
+      <div class="l">
+        <h3>Complete Asset Pack</h3>
+        <p>All logos (SVG + PNG), the Illustrator source, and a usage README · ~25&nbsp;MB .zip</p>
+      </div>
+      <a class="btn btn-primary" href="assets/downloads/SoundAndFury_Brand_Assets.zip" download>↓ Download Everything</a>
+    </div>
+
+    <div class="dtable">
+      <div class="dgroup-title">Primary Lockup — Wordmark + Tagline + URL</div>
+      <div class="drow">
+        <div class="dn"><div class="t">Solid Black</div><div class="s">Clean vector · light backgrounds</div></div>
+        <div class="acts">
+          <a class="dl" href="assets/logos/svg/SNF_LOGO_new-01.svg" download="SoundAndFury_Lockup_Black.svg">SVG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-01.png" download="SoundAndFury_Lockup_Black.png">PNG</a>
+        </div>
+      </div>
+      <div class="drow">
+        <div class="dn"><div class="t">Distressed Black</div><div class="s">Grunge texture · light backgrounds</div></div>
+        <div class="acts">
+          <a class="dl" href="assets/logos/svg/SNF_LOGO_new-03.svg" download="SoundAndFury_Lockup_Distressed_Black.svg">SVG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-03.png" download="SoundAndFury_Lockup_Distressed_Black.png">PNG</a>
+        </div>
+      </div>
+      <div class="drow">
+        <div class="dn"><div class="t">Distressed Gray / Reversed</div><div class="s">Dark backgrounds</div></div>
+        <div class="acts">
+          <a class="dl" href="assets/logos/svg/SNF_LOGO_new-07.svg" download="SoundAndFury_Lockup_Distressed_Gray.svg">SVG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-07.png" download="SoundAndFury_Lockup_Distressed_Gray.png">PNG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-05.png" download="SoundAndFury_Lockup_Distressed_Gray_OnBlack.png">PNG · on black</a>
+        </div>
+      </div>
+
+      <div class="dgroup-title">Wordmark — SOUND&amp;FURY</div>
+      <div class="drow">
+        <div class="dn"><div class="t">Solid Black</div><div class="s">Clean vector · light backgrounds</div></div>
+        <div class="acts">
+          <a class="dl" href="assets/logos/svg/SNF_LOGO_new-02.svg" download="SoundAndFury_Wordmark_Black.svg">SVG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-02.png" download="SoundAndFury_Wordmark_Black.png">PNG</a>
+        </div>
+      </div>
+      <div class="drow">
+        <div class="dn"><div class="t">Distressed Black</div><div class="s">Grunge texture · light backgrounds</div></div>
+        <div class="acts">
+          <a class="dl" href="assets/logos/svg/SNF_LOGO_new-04.svg" download="SoundAndFury_Wordmark_Distressed_Black.svg">SVG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-04.png" download="SoundAndFury_Wordmark_Distressed_Black.png">PNG</a>
+        </div>
+      </div>
+      <div class="drow">
+        <div class="dn"><div class="t">Distressed Gray / Reversed</div><div class="s">Dark backgrounds</div></div>
+        <div class="acts">
+          <a class="dl" href="assets/logos/svg/SNF_LOGO_new-08.svg" download="SoundAndFury_Wordmark_Distressed_Gray.svg">SVG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-08.png" download="SoundAndFury_Wordmark_Distressed_Gray.png">PNG</a>
+          <a class="dl" href="assets/logos/png/SNF_LOGO_new-06.png" download="SoundAndFury_Wordmark_Distressed_Gray_OnBlack.png">PNG · on black</a>
+        </div>
+      </div>
+
+      <div class="dgroup-title">Master Source</div>
+      <div class="drow">
+        <div class="dn"><div class="t">Adobe Illustrator</div><div class="s">Editable vector master · all variations · ~19&nbsp;MB</div></div>
+        <div class="acts">
+          <a class="dl" href="assets/logos/ai/SNF_LOGO_new.ai" download="SoundAndFury_Logo_Master.ai">AI</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="fl" src="assets/logos/png/SNF_LOGO_new-08.png" alt="Sound & Fury">
+        <div class="foot-contact">
+          28W321 Warrenville Rd #7, Warrenville, IL 60555<br>
+          <a href="tel:+16307918099">630.791.8099</a> · <a href="mailto:info@soundandfuryprint.com">info@soundandfuryprint.com</a><br>
+          <a href="https://soundandfuryprint.com" target="_blank" rel="noopener">soundandfuryprint.com</a> · <a href="https://instagram.com/sound_and_fury" target="_blank" rel="noopener">@sound_and_fury</a>
+        </div>
+      </div>
+      <div class="foot-links">
+        <a href="#logo">The Mark</a>
+        <a href="#variations">Variations</a>
+        <a href="#color">Color</a>
+        <a href="#type">Typography</a>
+        <a href="#usage">Usage Rules</a>
+        <a href="#downloads">Downloads</a>
+      </div>
+    </div>
+    <div class="copyline">
+      <span>© 2026 Sound &amp; Fury Print Shop · Warrenville, IL · All rights reserved.</span>
+      <span>Local apparel printing that doesn't suck.</span>
+    </div>
+  </div>
+</footer>
+
+<div id="toast">Copied</div>
+
+<script>
+  // Copy hex on swatch click
+  const toast = document.getElementById('toast');
+  let toastTimer;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(()=>toast.classList.remove('show'), 1400);
+  }
+  document.querySelectorAll('.swatch').forEach(sw=>{
+    sw.addEventListener('click', ()=>{
+      const val = sw.dataset.copy;
+      navigator.clipboard?.writeText(val).then(
+        ()=>showToast(val + ' copied'),
+        ()=>showToast(val)
+      );
+    });
+  });
+
+  // Active nav link on scroll
+  const links = [...document.querySelectorAll('.nav-links a')];
+  const map = new Map(links.map(a=>[a.getAttribute('href').slice(1), a]));
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        links.forEach(l=>l.classList.remove('active'));
+        const a = map.get(e.target.id);
+        if(a) a.classList.add('active');
+      }
+    });
+  }, {rootMargin:'-45% 0px -50% 0px'});
+  document.querySelectorAll('section[id]').forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>
