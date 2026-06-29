@@ -3,6 +3,7 @@
 Tracks published posts (never duplicate a topic) and a backlog of ideas for future weekly runs.
 
 ## Published
+- 2026-06-29 — The Best Blank Hoodies & Crewnecks for Custom Printing (best blank hoodies for printing)
 - 2026-06-22 — The Best Blank T-Shirts for Custom Printing (best blank t-shirts for printing)
 - 2026-06-20 — Screen Printing vs. DTF vs. Embroidery: Which Should You Choose? (screen printing vs dtf)
 - 2026-06-20 — How Much Do Custom Shirts Cost? (custom shirt pricing)
@@ -16,10 +17,9 @@ Tracks published posts (never duplicate a topic) and a backlog of ideas for futu
 - 2018-09-17 — Your Corporate Apparel Doesn't Have to Be Plain (corporate apparel)
 
 ## Ideas (backlog — pick one, don't repeat the above)
-- Custom hoodies & crewnecks: best blanks (Independent Trading, Gildan 18500, Comfort Colors) and how heavyweight fleece prints.
 - Fundraiser / nonprofit / church shirts: how to run a shirt fundraiser that actually makes money (presale stores + free screens on 100+).
 - Water-based vs. plastisol ink: feel, durability, and when each is the right call.
-- School spirit wear & club uniforms in Chicagoland: ordering for teams, bulk pricing tiers.
 - Turnaround time: "how long does custom printing take?" (~10–12 business days + rush options).
+- School spirit wear & club uniforms in Chicagoland: ordering for teams, bulk pricing tiers.
 - Single-town local page: custom t-shirts in Naperville (don't repeat the western-suburbs post).
 - Specialty prints: puff, metallic, and other upgrades that make merch pop.
