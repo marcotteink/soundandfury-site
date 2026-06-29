@@ -67,14 +67,29 @@
   var y = document.getElementById('yr');
   if (y) y.textContent = new Date().getFullYear();
 
-  // ---- Lazy-load homepage quote iframe when near viewport ----
+  // ---- Quote builder: warm the app early (Replit cold-start ~10s) + loading state ----
+  var QUOTE_ORIGIN = 'https://quoterai.replit.app';
+  // Wake the app the moment any quote page loads, so it's warm before the user reaches it.
+  try { fetch(QUOTE_ORIGIN + '/order', { mode: 'no-cors', cache: 'no-store' }); } catch (e) {}
+
+  function wireQuoteFrame(f) {
+    var box = f.closest ? f.closest('.qframe') : f.parentNode;
+    if (!box) return;
+    var done = false;
+    f.addEventListener('load', function () { done = true; box.classList.add('loaded'); });
+    // If it's still spinning after a while, surface the "open in a new tab" hint.
+    setTimeout(function () { if (!done) box.classList.add('slow'); }, 11000);
+  }
+  document.querySelectorAll('.qframe iframe').forEach(wireQuoteFrame);
+
+  // Lazy frames (homepage): start loading well before they scroll into view.
   var lazyFrames = document.querySelectorAll('iframe[data-src]');
   if (lazyFrames.length && 'IntersectionObserver' in window) {
     var fo = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (e.isIntersecting) { e.target.src = e.target.dataset.src; fo.unobserve(e.target); }
       });
-    }, { rootMargin: '300px' });
+    }, { rootMargin: '800px' });
     lazyFrames.forEach(function (f) { fo.observe(f); });
   } else {
     lazyFrames.forEach(function (f) { f.src = f.dataset.src; });
