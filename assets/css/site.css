@@ -291,7 +291,7 @@ body.cue-hide .scroll-cue{opacity:0;pointer-events:none;transform:translateX(-50
 /* ---------- FOOTER ---------- */
 footer.site{background:var(--black);padding:64px 0 40px;border-top:1px solid var(--line)}
 .foot-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px}
-.foot-brand img{height:30px;margin-bottom:16px}
+.foot-brand img{height:30px;width:auto;margin-bottom:16px}
 .foot-brand p{color:var(--muted);font-size:.92rem;max-width:34ch}
 .foot-col h4{font-family:'Barlow Condensed';font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;color:var(--steel);margin-bottom:16px}
 .foot-brand,.foot-col{min-width:0}
